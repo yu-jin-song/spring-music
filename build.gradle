@@ -78,4 +78,5 @@ java {
 
 jar {
     archiveBaseName = "spring-music"
+    enabled = false
 }
