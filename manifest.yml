@@ -1,6 +1,6 @@
 ---
 applications:
-- name: pipe-spring-music-jar
+- name: pipeline-spring-music-jar
   memory: 1G
   random-route: false
   path: build/libs/spring-music-1.0.jar
