@@ -2,10 +2,8 @@
 applications:
 - name: pipe-spring-music-jar
   memory: 1G
-  random-route: true
+  random-route: false
   path: build/libs/spring-music-1.0.jar
-  buildpacks:
-  - java_buildpack
   env:
     JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
     SPRING_PROFILES_ACTIVE: http2
